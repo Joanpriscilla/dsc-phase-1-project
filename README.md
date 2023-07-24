@@ -98,15 +98,18 @@ This section contains the analysis of the relationship between release months an
 1. **PROFITABILITY OF MOVIES BASED ON GENRES**
 
 Wrote a query to show the top ten most profitable movie genres in the box office. Adventure movies came on top with a profit of 261.45 million dollars.
-    plotted a graph graph for visual presentation of the above information using seaborn and matplotlib.
-![Image Alt Text](p.r.g.png)
+
+plotted a graph graph for visual presentation of the above information using seaborn and matplotlib.
+    
+![Image Alt Text](prgenre.png)
 
 2. **POPUlARITY OF MOVIES BASED ON GENRES**
 
 Wrote a query to get the top ten most popular genres in the box office. Action movies were the most popular movie genres in the box office with an average popularity of 7.28.
-    plotted a graph for visual presentation of the above information.
 
-![Image Alt Text](p.g.png)
+visual presentation of the above information.
+
+![Image Alt Text](pgenre.png)
 
 3.**POPULARITY AND PROFITABILITY OF MOVIES BASED ON GENERES**
 Creating a data base with similar genres from profitability and popularity so that we can figure out which movies were both one of the most  profitable and most popular
@@ -131,8 +134,9 @@ This code merges the genre popularity and genre profitability dataframes into a 
 called genre_popularity_profitability. The merge is performed based on the column genres [ on=genres ] 
 using an inner join [ how=inner ] that only includes movie genres that are in both dataframes
     
-  3.visual representation of the genres using a line-graph.
-  ![Image Alt Text](g.png)
+3.visual representation of the genres using a line-graph.
+  
+  ![Image Alt Text](genre.png)
 
 **POPULARITY OF MOVIES BASED ON MONTHS
 
@@ -149,7 +153,9 @@ using an inner join [ how=inner ] that only includes movie genres that are in bo
 December releases were the most popular, with an average popularity of 3.60.
 
 visual presentation of the information.
-![Image Alt Text](prog.png)
+
+![Image Alt Text](pmonth.png)
+
 
 **PROFITABILITY OF MOVIES BASED ON MONTHS**
  
@@ -161,7 +167,8 @@ visual presentation of the information.
    May was the most profitable month in the box office with an average profit of 207.36.
      
 visual presentation of the information
-![Image Alt Text](pog.png)
+
+![Image Alt Text](prmonth.png)
 
 **POPULARITY AND PROFITABILITY OF MOVIES BASED ON MONTHS
 
@@ -179,7 +186,9 @@ created a popularity dataframe.
     
 joined the profitable months and popular months data frames into a new data frame most_popular and profitable_months the. The merge is performed based on the column months [ on=months ] using an inner join [ how=inner ] that only includes release months that are in both dataframe.
 
-![Image Alt Text](m.png)
+
+![Image Alt Text](month.png)
+
 
 ## INSIGHTS
 Gave business solutions from our insight.
