@@ -101,7 +101,7 @@ This section contains the analysis of the relationship between release months an
 
 Wrote a query to show the top ten most profitable movie genres in the box office. Adventure movies came on top with a profit of 261.45 million dollars.
 
-Plotted a graph graph for visual presentation of the above information using seaborn and matplotlib.
+visual presentation of profitable genres.
     
 ![Image Alt Text](readmepictures/prgenre.png)
 
@@ -110,7 +110,7 @@ Plotted a graph graph for visual presentation of the above information using sea
 
 Wrote a query to get the top ten most popular genres in the box office. Action movies were the most popular movie genres in the box office with an average popularity of 7.28.
 
-visual presentation of the above information.
+visual presentation of popular genres.
 
 ![Image Alt Text](readmepictures/pgenre.png)
 
@@ -139,7 +139,7 @@ This code merges the genre popularity and genre profitability dataframes into a 
 called genre_popularity_profitability. The merge is performed based on the column genres [ on=genres ] 
 using an inner join [ how=inner ] that only includes movie genres that are in both dataframes
     
-visual presentation of the genres.
+visual presentation of the popular and profitable genres.
   
   ![Image Alt Text](readmepictures/genre.png)
   
@@ -160,7 +160,7 @@ Created a query to get the top six most popular.
 
 December releases were the most popular, with an average popularity of 3.60.
 
-visual presentation of the information.
+visual presentation of popular months.
 
 ![Image Alt Text](readmepictures/pmonth.png)
 
@@ -174,7 +174,7 @@ visual presentation of the information.
 
 May was the most profitable month in the box office with an average profit of 207.36.
      
-visual presentation of the information
+visual presentation of profitable months.
 
 ![Image Alt Text](readmepictures/prmonth.png)
 
@@ -196,6 +196,7 @@ to create a new DataFrame named profitable months from the data in data3.
     
 joined the profitable months and popular months data frames into a new data frame most_popular and profitable_months. The merge is performed based on the column months [ on=months ] using an inner join [ how=inner ] that only includes release months that are in both dataframe.
 
+visual presentation of popular and profitable months.
 
 ![Image Alt Text](readmepictures/month.png)
 
