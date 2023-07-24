@@ -137,7 +137,7 @@ using an inner join [ how=inner ] that only includes movie genres that are in bo
     
 3.visual representation of the genres using a line-graph.
   
-  ![Image Alt Text](readme pictures/genre.png)
+  ![Image Alt Text](genre.png)
 
 **POPULARITY OF MOVIES BASED ON MONTHS
 
@@ -145,13 +145,13 @@ using an inner join [ how=inner ] that only includes movie genres that are in bo
     
       WHEN strftime('%m', t.release_date) = '01' THEN 'January'
    
-a.[WHEN] conditional statment.
+   [WHEN] conditional statment.
     
-b.[Strftime] format date.
+   [Strftime] format date.
     
-c.['%m', t.release_date] extracts the month part from each release date in the table.
+   ['%m', t.release_date] extracts the month part from each release date in the table.
     
-d.[THEN 'January'] If the condition is true (i.e., the month part of the release date is '01' or January), the result of this statement will be 'January'.
+   [THEN 'January'] If the condition is true (i.e., the month part of the release date is '01' or January), the result of this statement will be 'January'.
 
 December releases were the most popular, with an average popularity of 3.60.
 
