@@ -102,7 +102,7 @@ Wrote a query to show the top ten most profitable movie genres in the box office
 
 Plotted a graph graph for visual presentation of the above information using seaborn and matplotlib.
     
-![Image Alt Text](readme pictures/prgenre.png)
+![Image Alt Text](readmepictures/prgenre.png)
 
 2.**POPUlARITY OF MOVIES BASED ON GENRES**
 
@@ -110,7 +110,7 @@ Wrote a query to get the top ten most popular genres in the box office. Action m
 
 visual presentation of the above information.
 
-![Image Alt Text](readme pictures/pgenre.png)
+![Image Alt Text](readmepictures/pgenre.png)
 
 3.**POPULARITY AND PROFITABILITY OF MOVIES BASED ON GENERES**
 Creating a data base with similar genres from profitability and popularity so that we can figure out which movies were both one of the most  profitable and most popular
@@ -137,7 +137,7 @@ using an inner join [ how=inner ] that only includes movie genres that are in bo
     
 3.visual representation of the genres using a line-graph.
   
-  ![Image Alt Text](genre.png)
+  ![Image Alt Text](readmepictures/genre.png)
 
 **POPULARITY OF MOVIES BASED ON MONTHS
 
@@ -157,7 +157,7 @@ December releases were the most popular, with an average popularity of 3.60.
 
 visual presentation of the information.
 
-![Image Alt Text](readme pictures/pmonth.png)
+![Image Alt Text](readmepictures/pmonth.png)
 
 
 **PROFITABILITY OF MOVIES BASED ON MONTHS**
@@ -171,7 +171,7 @@ May was the most profitable month in the box office with an average profit of 20
      
 visual presentation of the information
 
-![Image Alt Text](readme pictures/prmonth.png)
+![Image Alt Text](readmepictures/prmonth.png)
 
 **POPULARITY AND PROFITABILITY OF MOVIES BASED ON MONTHS
 
@@ -192,7 +192,7 @@ to create a new DataFrame named profitable months from the data in data3.
 joined the profitable months and popular months data frames into a new data frame most_popular and profitable_months the. The merge is performed based on the column months [ on=months ] using an inner join [ how=inner ] that only includes release months that are in both dataframe.
 
 
-![Image Alt Text](readme pictures/month.png)
+![Image Alt Text](readmepictures/month.png)
 
 
 ## INSIGHTS
